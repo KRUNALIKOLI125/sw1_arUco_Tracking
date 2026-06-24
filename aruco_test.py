@@ -67,10 +67,10 @@ while True:
             command = "MOVE LEFT"
 
         elif error_y > 30:
-            command = "MOVE DOWN"
+            command = "MOVE up"
 
         else:
-            command = "MOVE UP"
+            command = "MOVE down"
 
         # Display command
         cv2.putText(
